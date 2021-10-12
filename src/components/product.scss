@@ -1,0 +1,86 @@
+.product-container{
+    width:100%;
+    .product-holder{
+        padding: 2vh 3vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .product-card{
+            margin: 1vh;
+            width:22%;
+            height:35vh;
+            padding: 0.2vw;
+            background-color: #fefefe;
+            border:0.1vw solid #dfdfdf;
+            border-radius: 0.2vw;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+           
+            .product-image-holder{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                max-height: 16vh;
+                align-items: center;
+                .product-image{
+                    height: 15vh;
+                }
+            }
+            .product-title{
+                width: 100%;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                font-size: 1vw;
+                font-weight: 600;
+                height: 6vh;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: #808080;
+            }
+
+            .product-description{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                font-size: 0.6vw;
+                font-weight: 600;
+                height: 10vh;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: #808080;
+                word-spacing: 0.1vw;
+            }
+            
+            .product-specs{
+                width: 100%;
+                display: flex;
+                font-size: 0.8vw;
+                .product-price{
+                    background-color: #FFD814;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0 0.2vw;
+                    height:4vh;
+                    font-weight: 600;
+                    border-color: #FCD200;
+                    width: 50%;
+                }
+                .product-rating{
+                    background-color: #007600;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0 0.2vw;
+                    height:4vh;
+                    font-weight: 600;
+                    width: 50%;
+                }
+            }
+            
+        }
+    }
+}

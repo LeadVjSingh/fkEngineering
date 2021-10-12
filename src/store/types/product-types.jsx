@@ -1,0 +1,5 @@
+export const ProductTypes = {
+    ITEM_FETCH_START: "ITEM_FETCH_START",
+    ITEM_FETCH_DONE: "ITEM_FETCH_DONE",
+    ITEM_FETCH_ERROR: "ITEM_FETCH_ERROR",
+};

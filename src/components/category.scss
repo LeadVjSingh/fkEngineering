@@ -1,0 +1,23 @@
+.category-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    .category-listing{
+        width:100%;
+        max-width: 7vw;
+        background-color: #f7aa35;
+        color: #fff;
+        font-size: 0.8vw;
+        font-weight: 500;
+        border-radius: 0.4vh;
+        cursor: pointer;
+        padding: 0.4vw;
+        margin:2vh 3vh;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: center;
+    }
+    .category-listing:hover{
+        border-color:red;
+    }
+}

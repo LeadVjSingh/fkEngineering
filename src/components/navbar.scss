@@ -1,0 +1,26 @@
+.navbar-container{
+    width:100%;
+    padding:0;
+    margin: 0;
+    height: 6vh;
+    background-color: #802c6e;
+    color: #ffffff;
+    font-size: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .navbar-welcome{
+        font-size: 0.6vw;
+        padding-right: 2vh;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .navbar-title{
+        display: flex;
+        padding-left:4vh;
+        font-weight: 600;
+       
+    }
+
+   
+}
