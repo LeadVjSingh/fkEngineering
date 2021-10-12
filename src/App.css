@@ -24,6 +24,39 @@
   color: white;
 }
 
+.List-background {
+  /* position: absolute; */
+  height: 100px;
+  left: 0px;
+  top: 51px;
+  background: #F6F7FC;
+  border-radius: 8px;
+}
+.button-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div {
+  display: table;
+  display: flex;
+  
+}
+
+.img {
+  vertical-align: middle;
+  display: table-cell;
+}
+.span {
+  vertical-align: middle;
+  display: table-cell;
+}
+.span-right {
+  align-self: flex-start;
+  display: table-cell;
+  text-align: right;
+}
 .App-link {
   color: #61dafb;
 }

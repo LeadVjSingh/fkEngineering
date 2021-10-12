@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import Example from "./Example";
 
 const Navbar = React.lazy(() => import("./navbar"));
 const Category = React.lazy(() => import("./category"));
@@ -11,7 +12,10 @@ const Main = () => {
                 <Navbar />
             </Suspense>
             <Suspense fallback={<div>loading...</div>}>
-                <Category />
+                <Example title='Uploading' />
+                <Example title='Next Up' />
+                <Example title='Completed' />
+                <Example title='Incomplete Uploads' />
             </Suspense>
             <Suspense fallback={<div>loading...</div>}>
                 <Product />
